@@ -15,17 +15,34 @@ Projeto com operações básicas utilizando Nodejs e MongoDB.
 ## Testando a Aplicação:
 
 Caso queira testar as API's criadas no projeto, primeiro baixe o [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) ou o [cURL](https://curl.haxx.se/).
+<<<<<<< HEAD
+
+=======
+>>>>>>> c894a84b0903566a20729f0a29787a0bdf3a2f9e
 Depois de realizar o download, basta agora realizar os passos abaixo para 
 poder testar.
 
   ROTA                    |     HTTP(Verbo)   |      Descrição        		| 
 ------------------------- | ----------------- | ----------------------------| 
 /user/create              |       POST        | Criar usuário          		| 
-/user/:userName           |       GET         | Procurar usuário por nome   | 
+/user/:name 	          |       GET         | Procurar usuário por nome   | 
 /allUsers  				  |       GET         | Selecionar todos os usuários| 
-/user/update/:userName	  |       PUT         | Atualizar a partir do nome	|    
-/user/delete/:userName 	  |       DELETE      | Excluir a partir do nome	|
+/user/update/:name		  |       PUT         | Atualizar a partir do nome	|    
+/user/delete/:name	 	  |       DELETE      | Excluir a partir do nome	|
 
+<<<<<<< HEAD
+O formato do json a ser enviado para criar ou atualizar é mostrado a seguinte:
+```
+{
+	"name": String,
+	"age": Number,
+	"phone": Number,
+	"is_admin": Boolean
+}
+```
+
+=======
+>>>>>>> c894a84b0903566a20729f0a29787a0bdf3a2f9e
 Normalmente é utilizado o ID do objeto nas operações, entretanto existem dois motivos para eu utilizar o nome:
 - IDs do MongoDB tem o formato muito grande.
 - Eu sou preguiçoso.
@@ -108,5 +125,5 @@ Caso tenha feito corretamente, foi criado um banco isolado para esse projeto.
 
 Agora, abre a página da aplicação em `http://localhost:1234/test`. E pronto a aplicação será executada de maneira local na sua máquina e deverá retorna 'OK' como mensagem.
 ```
-OK.
+OK =D
 ```  
