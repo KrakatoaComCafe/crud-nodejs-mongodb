@@ -15,10 +15,8 @@ Projeto com operações básicas utilizando Nodejs e MongoDB.
 ## Testando a Aplicação:
 
 Caso queira testar as API's criadas no projeto, primeiro baixe o [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) ou o [cURL](https://curl.haxx.se/).
-<<<<<<< HEAD
 
-=======
->>>>>>> c894a84b0903566a20729f0a29787a0bdf3a2f9e
+
 Depois de realizar o download, basta agora realizar os passos abaixo para 
 poder testar.
 
@@ -30,7 +28,6 @@ poder testar.
 /user/update/:name		  |       PUT         | Atualizar a partir do nome	|    
 /user/delete/:name	 	  |       DELETE      | Excluir a partir do nome	|
 
-<<<<<<< HEAD
 O formato do json a ser enviado para criar ou atualizar é mostrado a seguinte:
 ```
 {
@@ -41,8 +38,6 @@ O formato do json a ser enviado para criar ou atualizar é mostrado a seguinte:
 }
 ```
 
-=======
->>>>>>> c894a84b0903566a20729f0a29787a0bdf3a2f9e
 Normalmente é utilizado o ID do objeto nas operações, entretanto existem dois motivos para eu utilizar o nome:
 - IDs do MongoDB tem o formato muito grande.
 - Eu sou preguiçoso.
